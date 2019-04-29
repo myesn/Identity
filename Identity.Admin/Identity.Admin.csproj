@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>Upo.Identity.Admin</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>myesn</Authors>
+    <Company />
+    <Product>Upo.Identity.Admin</Product>
+    <Description>Identity admin mutable services</Description>
+    <RootNamespace>Upo.Identity.Admin</RootNamespace>
+    <LangVersion>7.1</LangVersion>
+    <AssemblyName>Upo.Identity.Admin</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Shared\Check.cs" Link="Check.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dynastech.EntityFrameworkCore.Extensions" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Identity.Abstractions\Identity.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

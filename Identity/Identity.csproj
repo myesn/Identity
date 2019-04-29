@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.1.0</Version>
+    <PackageId>Upo.Identity</PackageId>
+    <Authors>myesn</Authors>
+    <Company />
+    <Product>Upo.Identity</Product>
+    <Description>Identity providers</Description>
+    <RootNamespace>Upo.Identity</RootNamespace>
+    <LangVersion>7.1</LangVersion>
+    <PackageTags>Identity</PackageTags>
+    <AssemblyName>Upo.Identity</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dynastech.EntityFrameworkCore.Extensions" Version="0.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Identity.Abstractions\Identity.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

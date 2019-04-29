@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Upo.Identity</RootNamespace>
+    <PackageId>Upo.Identity.Abstractions</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>myesn</Authors>
+    <Product>Upo.Identity.Abstractions</Product>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Identity</PackageTags>
+    <Description>Identity abstractions</Description>
+    <LangVersion>7.1</LangVersion>
+    <AssemblyName>Upo.Identity.Abstractions</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+  </ItemGroup>
+
+</Project>

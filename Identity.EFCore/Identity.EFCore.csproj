@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>Upo.Identity.EFCore</PackageId>
+    <Product>Upo.Identity.EFCore</Product>
+    <Authors>myesn</Authors>
+    <Version>0.1.0</Version>
+    <Company />
+    <Description>Identity admin entityframework core(data store)</Description>
+    <RootNamespace>Upo.Identity.EntityFrameworkCore</RootNamespace>
+    <LangVersion>7.1</LangVersion>
+    <PackageTags>Identity</PackageTags>
+    <AssemblyName>Upo.Identity.EntityFrameworkCore</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Identity.Abstractions\Identity.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
